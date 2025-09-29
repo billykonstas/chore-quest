@@ -1,6 +1,10 @@
 <template>
   <div class="grid grid-cols-[repeat(auto-fill,_minmax(200px,_1fr))] gap-2">
-    <div v-for="achievement in achievements" :key="achievement.id" class="flex items-center gap-3">
+    <div
+      v-for="achievement in achievements"
+      :key="achievement.id"
+      class="flex items-center gap-3 achievement-card"
+    >
       <div :class="`rounded-xl p-3 w-fit ${getCategoryColor(achievement.category).bg}`">
         <img :src="achievement.icon" alt="Achievement Icon" width="24" height="24" />
       </div>
@@ -41,3 +45,27 @@ defineProps({
   },
 })
 </script>
+
+<style scoped>
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+  75% {
+    transform: rotate(1deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.achievement-card:hover {
+  animation: wiggle 0.4s ease-in-out;
+}
+</style>
