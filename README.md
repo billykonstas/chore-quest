@@ -85,7 +85,4 @@ The dashboard is divided into **5 main sections**:
 * Completing two different **bathroom tasks (blue)** unlocks the **"Bathroom Brave"** achievement.
 * Surpassing the XP threshold triggers the level-up animation and updates your level.
 
----
-
-## Preview
 
