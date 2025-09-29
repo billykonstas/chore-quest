@@ -1,0 +1,10 @@
+# Ignore Volar / Vue language service generated files
+*.vue.js
+*.vue.d.ts
+
+# Ignore TypeScript build outputs
+dist/
+node_modules/
+
+# Optional: ignore other generated files
+*.d.ts
