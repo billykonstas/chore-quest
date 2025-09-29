@@ -3,6 +3,8 @@
 A gamified dashboard for managing and tracking flatmate chores.
 Built with **Vue 3**, **TypeScript**, **Pinia**, and **TailwindCSS**.
 
+Live demo at: [chore-quest-billykonstas.vercel.app](https://chore-quest-billykonstas.vercel.app/)
+
 ---
 
 ## Project Setup
@@ -30,6 +32,8 @@ npm run build
 ```sh
 npm run lint
 ```
+
+The app will be available locally at [http://localhost:5173](http://localhost:5173) by default.
 
 ---
 
